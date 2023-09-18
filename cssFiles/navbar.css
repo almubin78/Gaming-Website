@@ -1,0 +1,48 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:20px 150px;
+}
+.navLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navImg{
+    margin-right: 25px;
+}
+.navLeft span{
+    font-size: 30px;
+}
+.gamer{
+    color: rgb(228, 214, 15);
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.navRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navRight ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navRight ul li {
+    margin-right: 20px;
+    list-style-type: none;
+}
+.navRight ul li a{
+    text-decoration: none;
+}
+.navRight-social{
+    border:1px solid gray;
+    padding: 5px;
+    box-shadow: inset 5px 3px 5px 0.3 black;
+}
+.nabButtonStyle{
+    border:none;
+    cursor: pointer;
+}
