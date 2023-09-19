@@ -1,0 +1,27 @@
+.upper{
+    text-transform: uppercase;
+}
+.margin-top-20px{
+    margin-top: 20px;
+}
+.margin-top-10px{
+    margin-top: 10px;
+}
+.flex-jcc-aic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-jcsb-aic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-jcsa-aic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-end{
+    text-align: end;
+}

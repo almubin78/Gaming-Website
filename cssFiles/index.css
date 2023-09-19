@@ -1,1 +1,6 @@
-@import './navbar.css'
+@import './navbar.css';
+@import './signIn.css';
+@import './short.css';
+body{
+    padding:10px;
+}
