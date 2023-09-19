@@ -1,6 +1,16 @@
 .upper{
     text-transform: uppercase;
 }
+.gamer{
+    color:#C84FCE;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.margin-top-50px{
+    margin-top: 50px;
+}
+
 .margin-top-20px{
     margin-top: 20px;
 }
@@ -9,6 +19,12 @@
 }
 .flex-jcc-aic{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cflex-jcc-aic{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -24,4 +40,30 @@
 }
 .text-end{
     text-align: end;
+}
+.text-middle{
+    text-align: center;
+}
+.sample-btn{
+    padding:10px 15px;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.sample-btn:hover{
+    transition: color 0.5s ease-in-out;
+    
+    color:rgb(27, 15, 15);
+}
+figure{
+    /* border:1px solid green; */
+    padding:5px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+figcaption{
+    color: #534C64;
+    margin: 10px 3px;
 }

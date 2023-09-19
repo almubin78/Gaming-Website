@@ -1,6 +1,7 @@
 @import './navbar.css';
 @import './signIn.css';
 @import './short.css';
+@import './play.css';
 body{
     padding:10px;
 }

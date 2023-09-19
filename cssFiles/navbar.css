@@ -15,11 +15,7 @@
 .navLeft span{
     font-size: 30px;
 }
-.gamer{
-    color: rgb(228, 214, 15);
-    font-size: 35px;
-    font-weight: 800;
-}
+
 
 .navRight{
     display: flex;

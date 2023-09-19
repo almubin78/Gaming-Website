@@ -1,0 +1,15 @@
+.playSectionContainer{
+    margin:200px 50px;
+}
+.playImg{
+    position:absolute;
+    left:-20%;
+    bottom:-20%;
+}
+.playImg2{
+    position:absolute;
+    right:-20%;
+    bottom:-20%;
+
+   
+}
