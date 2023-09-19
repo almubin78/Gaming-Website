@@ -5,3 +5,10 @@
 body{
     padding:10px;
 }
+.CareerContainer{
+    margin:0 auto;
+    width:90%;
+    background-color: #FF55AE;
+    padding: 20px;
+    color: white;
+}
