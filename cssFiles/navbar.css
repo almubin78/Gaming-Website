@@ -1,45 +1,33 @@
 .navbar{
-    display: flex;
-    justify-content: space-between;
-    padding:20px 150px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    
+    padding:15px;
 }
-.navLeft{
+.nav-img{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     align-items: center;
-}
-.navImg{
-    margin-right: 25px;
-}
-.navLeft span{
-    font-size: 30px;
 }
 
 
-.navRight{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+i{
+   margin: 5px;
+   cursor: pointer;
+   
+   border-radius: 10px;
+   padding: 10px;
 }
-.navRight ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.fa-facebook{
+    background-color: #0D8BF0;
+    color:#FFFFFF;
 }
-.navRight ul li {
-    margin-right: 20px;
-    list-style-type: none;
+.fa-youtube{
+background-color: red;
+color:wheat;
 }
-.navRight ul li a{
-    text-decoration: none;
-}
-.navRight-social{
-    border:1px solid gray;
-    padding: 5px;
-    box-shadow: inset 5px 3px 5px 0.3 black;
-}
-.nabButtonStyle{
-    border:none;
-    cursor: pointer;
+.social-icons{
+    display: inline;
+    padding:20px 10px;
+    border-radius: 10px;
+    background-color:#E7E6E9;
 }

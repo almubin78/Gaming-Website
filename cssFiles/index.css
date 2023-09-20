@@ -2,12 +2,34 @@
 @import './signIn.css';
 @import './short.css';
 @import './play.css';
-body{
-    padding:10px;
-}
-.CareerContainer{
+@import './mediaQuary.css';
+
+body {
+    padding: 10px;
     margin:0 auto;
-    width:90%;
+    width:85%;
+    background-color: lightblue;
+    text-align: center;
+    /* overflow: hidden; */
+}
+Main{
+    padding: 10px;
+    margin:0 auto;
+    width:100%;
+}
+
+li {
+
+    list-style-type: none;
+    margin: 10px;;
+}
+a{
+    text-decoration: none;
+}
+
+.CareerContainer {
+    margin: 0 auto;
+    width: 90%;
     background-color: #FF55AE;
     padding: 20px;
     color: white;
