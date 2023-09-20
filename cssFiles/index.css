@@ -2,7 +2,10 @@
 @import './signIn.css';
 @import './short.css';
 @import './play.css';
+@import './overall.css';
+@import './footer.css';
 @import './mediaQuary.css';
+
 
 body {
     padding: 10px;
@@ -11,6 +14,9 @@ body {
     background-color: lightblue;
     text-align: center;
     /* overflow: hidden; */
+}
+body footer{
+    /* width:100%; */
 }
 Main{
     padding: 10px;

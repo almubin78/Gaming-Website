@@ -1,0 +1,46 @@
+.first-img {
+    /* width:100%;
+    background-image: cover;
+    background-position: center; */
+}
+
+.first-content {
+    background-image: url('../images/Group\ 14.png');
+    background-size: cover;
+    background-repeat: none;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.six-section {
+    background-color: #FF42A5;
+    padding: 30px 10px;
+}
+
+/* seven section */
+.seventh-section {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.gamesContainer {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 20px;
+
+}
+
+.grid-item {
+    text-align: center;
+    display: flex;
+    margin-right:150px;
+}
+hr{
+    width: 50%;
+    margin-bottom: 25px;
+}

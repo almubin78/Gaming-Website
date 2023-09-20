@@ -2,12 +2,16 @@
     body {
       background-color: lightblue;
     }
+
     .navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding:5px;
+        padding:5px 20px;
+        position:sticky;
+        top:0;
+        background-color: #5cc6e9;
     }
     .link-section{
         display: flex;
@@ -18,5 +22,19 @@
         
         padding:5px 10px;
     }
+    /* Nav End */
+    /* Second Start */
+    .gamesContainer {
+      width:100%;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .grid-item {
+    text-align: center;
+    display: flex;
+    margin-right:50px;
+}
 
   }

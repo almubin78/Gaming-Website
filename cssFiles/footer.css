@@ -1,0 +1,60 @@
+/* Reset some default styles */
+
+/* Define styles for the footer */
+footer {
+    background-color: #0B0223;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-categories ul li a{
+    color: #FFFFFF;
+    font-weight: 6      00;
+    font-size:20px ;
+}
+
+footer .social-icons2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+}
+footer i {
+
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-icons {
+    font-size: 24px;
+    color: #fff;
+}
+
+.footer-extra {
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 50px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .footer-logo h1 {
+        font-size: 20px;
+    }
+
+    .footer-icons {
+        font-size: 20px;
+    }
+}

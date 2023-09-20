@@ -5,11 +5,13 @@
     position:absolute;
     left:-20%;
     bottom:-20%;
+    /* overflow:hidden; */
 }
 .playImg2{
     position:absolute;
     right:-20%;
     bottom:-20%;
+    /* overflow: hidden; */
 
    
 }
