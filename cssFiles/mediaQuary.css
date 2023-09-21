@@ -1,8 +1,8 @@
 @media only screen and (min-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: #FFFFFF;
     }
-
+/* Navbar */
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -22,8 +22,82 @@
         
         padding:5px 10px;
     }
-    /* Nav End */
+  /* Nav End */
+  /* first section start */
+  .firstSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .first-content,.first-img{
+    width:45%;
+  }
+  .first-content{
+    height: 100%;
+  }
+  .first-img{
+    height:70%;
+    background-size: cover;
+  }
+  /* first section end */
     /* Second Start */
+    .secondSection{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      text-align: end;
+      height: 90vh;
+    }
+    .text-end{
+      margin-right: 25px;
+    }
+    /* Second End  */
+    /* Third Section Start  */
+    .forthSection{
+      height: 100vh;
+    }
+    .thirdImgsection{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+/* Third Section End  */
+/*Four Section Start  */
+.forthSection{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.forthSection img{
+  z-index: -2;
+  
+}
+/*Four Section End  */
+/*fifth section start  */
+.fifthSection{
+  margin: 100px 0px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+
+}
+/*fifth section end  */
+/*sixth section Start  */
+.playerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+/*sixth section End  */
+
+
+
     .gamesContainer {
       width:100%;
       display: flex;

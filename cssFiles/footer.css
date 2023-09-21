@@ -6,6 +6,7 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
+    width:100%;
 }
 
 .footer-categories ul li a{
